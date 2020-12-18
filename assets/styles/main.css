@@ -2,6 +2,13 @@
  src: url(../fonts/LeagueGothic-Regular.ttf);
  font-family: LeagueGothic;
 }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #212529;
+}
 
 .my-name {
   font-family: LeagueGothic;
@@ -45,4 +52,8 @@ p, a {
 .profile-pic-size {
   width: 20rem;
   height: 20rem;
+}
+
+.card {
+  border: 2px solid rgba(85,40,92,1) ;
 }
