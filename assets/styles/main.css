@@ -1,0 +1,48 @@
+@font-face {
+ src: url(../fonts/LeagueGothic-Regular.ttf);
+ font-family: LeagueGothic;
+}
+
+.my-name {
+  font-family: LeagueGothic;
+  font-size: 5rem;
+}
+
+p, a {
+  font-family: arial;
+  font-weight: bold;
+  color: #e7c2ec;
+}
+
+.bg-purple {
+  background-color: #020024;
+}
+
+.gb-buttons {
+ background-color: #55285c;
+ color: white;
+}
+
+.gradient {
+  height: 33rem;
+  width: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(85,40,92,1) 35%, rgba(11,18,19,1) 100%);
+}
+
+.thumbnails {
+  min-height: 4rem;
+  height: 6rem;
+  min-width: 6rem;
+  width: 10rem;
+}
+
+.micro-size {
+  min-width: 4em;
+  width: 10em;
+}
+
+.profile-pic-size {
+  width: 20rem;
+  height: 20rem;
+}
